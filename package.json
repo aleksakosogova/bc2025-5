@@ -1,0 +1,19 @@
+{
+  "name": "backend-course-2025-5",
+  "version": "1.0.0",
+  "description": "Примітивний кешуючий проксі-сервер для http.cat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js --"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "superagent": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "author": "aleksakosogova",
+  "license": "MIT"
+}
